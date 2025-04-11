@@ -1,0 +1,680 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    color: #ffff;
+}
+
+
+.img-circular {
+    margin-top: -60px;  
+    z-index: 0 !important; 
+    position: absolute;   
+    top: 0;               
+    right: 0;             
+  }
+
+.navbar{
+    z-index: 10 !important;
+    position: relative;
+}
+
+.logo{
+    margin-top: 150px;
+    margin-left: -520px;
+    z-index: 10;
+}
+
+
+.tarjeton{
+    color: transparent;
+    margin-top: 200px;
+    margin-left: -270px;
+    z-index: 3;
+}
+
+.redes{
+    display: flex;
+    gap: 20px;
+}
+
+.container-txt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 310px;
+}
+
+.titulo-txt{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: #E94F1C;
+    margin-left: 150px;
+}
+
+.container-row{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.p-txt{
+    width: 250px;
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+.p-txt2{
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+    background-color: #E94F1C;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+
+.card-componen{
+    width: 720px;
+
+}
+
+.container-componen{
+    display: flex;
+    align-items:first baseline;
+    padding-left: 310px;
+    margin-top: 100px;
+}
+
+.container-banda{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.banda{
+    background-color: #1b1b1b3b;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: end;
+    position: relative;
+    z-index: 0;
+}
+
+.stiker{
+    background-color: #AC2E2E;
+    border: 2px solid #ffffffb9;
+    border-radius: 100%;
+    padding: 10px 15px;
+    margin-left: 450px;
+    margin-bottom: -25px;
+    z-index: 2;
+}
+
+.conexion {
+    position: absolute;
+    left: 1px; 
+    z-index: 1; 
+}
+
+
+
+.container-cuadritos{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.cuadrito{
+    background-color: #1B1B1B;
+    padding: 20px;
+    color: #AC2E2E;
+    border-radius: 10px;
+}
+
+.cuadrito2{
+    background-color: #1B1B1B;
+    padding: 20px;
+    color: #E94F1C;
+    border-radius: 10px;
+}
+
+.cuadrito3{
+    background-color: #1B1B1B;
+    padding: 20px;
+    color: #837979;
+    border-radius: 10px;
+}
+
+.ultimo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+    font-weight: 300;
+}
+
+.txt-ultimo{
+    text-align: center;
+    width: 500px;
+}
+
+.txt-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+.footer{
+    margin-top: 150px;
+}
+
+.link-color{
+    color: #E94F1C !important;
+}
+
+.contenedor-precios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 2000px) {
+    .container-txt {
+    margin-left: 541px;
+    }
+    .container-componen {
+        padding-left: 531px;
+    }
+    .banda {
+        padding-left: 519px;
+        padding-right: 740px;
+    }
+}
+
+@media (max-width: 1900px) {
+    .container-txt {
+    margin-left: 489px;
+    }
+    .container-componen {
+        padding-left: 477px;
+    }
+    .banda {
+        padding-left: 519px;
+        padding-right: 680px;
+    }
+}
+
+@media (max-width: 1800px) {
+    .container-txt {
+    margin-left: 489px;
+    }
+    .container-componen {
+        padding-left: 477px;
+    }
+    .banda {
+        padding-left: 519px;
+        padding-right: 630px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .container-txt {
+    margin-left: 395px;
+    }
+    .container-componen {
+        padding-left: 382px;
+    }
+    .banda {
+        padding-left: 519px;
+        padding-right: 586px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .container-txt {
+    margin-left: 384px;
+    }
+    .container-componen {
+        padding-left: 340px;
+    }
+    .banda {
+        padding-left: 384px;
+        padding-right: 537px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .container-txt {
+    margin-left: 394px;
+    }
+    .container-componen {
+        padding-left: 286px;
+    }
+    .banda {
+        padding-left: 384px;
+        padding-right: 491px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .container-txt {
+        margin-left: 272px;
+    }
+    .card-componen {
+        width: 702px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .container-txt {
+    margin-left: 249px;
+    }
+    .container-componen {
+        padding-left: 243px;
+    }
+    .banda {
+        padding-left: 384px;
+        padding-right: 433px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .container-txt {
+    margin-left: 195px;
+    }
+    .container-componen {
+        padding-left: 192px;
+    }
+    .banda {
+        padding-left: 272px;
+        padding-right: 383px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container-txt {
+    margin-left: 147px;
+    }
+    .container-componen {
+        padding-left: 141px;
+    }
+    .banda{
+        padding-left: 254px;
+        padding-right: 340px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container-txt {
+    margin-left: 147px;
+    }
+    .container-componen {
+        padding-left: 141px;
+    }
+    .banda{
+        padding-left: 254px;
+        padding-right: 340px;
+    }
+}
+
+@media (max-width: 1100px) {
+.tarjeton {
+    color: #0000;
+    margin-top: 200px;
+    margin-left: -148px;
+}
+.banda {
+    padding-left: 254px;
+    padding-right: 285px;
+}}
+
+@media (max-width: 1000px) {
+.logo {
+    margin-top: 150px;
+    margin-left: -350px;
+    z-index: 10;
+}}
+
+@media (max-width: 950px) {
+    .container-txt {
+        margin-left: 91px;
+    }
+    .container-componen {
+        padding-left: 89px;
+    }
+}
+
+@media (max-width: 912px) {
+.container-txt {
+    margin-left: 73px;
+}
+.p-txt2 {
+    width: 598px;}
+    .container-componen {
+        padding-left: 62px;
+    }
+    .card-componen {
+        width: 669px;
+    }}
+
+@media (max-width: 900px) {
+    .container-txt {
+    margin-left: 74px;
+    }
+    .container-componen {
+        padding-left: 74px;
+    }
+    .banda {
+        padding-left: 254px;
+        padding-right: 180px;
+    }
+}
+
+@media (max-width: 853px) {
+.tarjeton {
+    color: #0000;
+    margin-top: 200px;
+    margin-left: -82px;
+}}
+
+@media (max-width: 800px) {
+.logo {
+    margin-top: 150px;
+    margin-left: -224px;
+    z-index: 10;
+}
+.tarjeton {
+    color: #0000;
+    margin-top: 200px;
+    margin-left: -1px;
+}
+.p-txt2 {
+    width: 597px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.titulo-txt {
+    margin-left: 378px;
+}
+.card-componen {
+    width: 583px;
+}
+.banda {
+    padding-left: 254px;
+    padding-right: 135px;
+}
+}
+
+@media (max-width: 700px) {
+.container-txt{
+    margin-left: 51px;
+}
+.container-componen {
+    padding-left: 41px;
+}
+.p-txt2 {
+    width: 587px;}
+.banda {
+    padding-left: 254px;
+    padding-right: 75px;
+    }
+}
+
+@media (max-width: 600px) {
+.p-txt2 {
+    width: 528px;}
+    .card-componen {
+        width: 533px;
+    }
+    .logo {
+        margin-top: 150px;
+        margin-left: -81px;
+        z-index: 10;
+    }
+    .container-txt{
+        margin-left: 24px;
+    }
+    .container-row {
+        gap: 30px;
+    }
+    .container-componen {
+        padding-left: 22px;
+    }
+    .banda {
+        padding-left: 254px;
+        padding-right: 33px;
+    }
+    .tarjeton {
+        margin-left: 6px;
+    }
+}
+
+@media (max-width: 500px) {
+    .p-txt2 {
+        width: 450px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .card-componen {
+        width: 442px;
+    }
+    .stiker {
+        background-color: #ac2e2e;
+        border: 2px solid #ffffffb9;
+        border-radius: 100%;
+        padding: 10px 15px;
+        margin-left: 335px;
+        margin-bottom: -25px;
+        z-index: 2;
+    }
+    .logo {
+        margin-top: 150px;
+        margin-left: -25px;
+        z-index: 10;
+    }
+    .titulo-txt {
+        margin-left: 327px;
+    }
+    .txt-ultimo {
+        text-align: center;
+        width: 366px;
+    }}
+
+
+    @media (max-width: 431px) {
+        .p-txt2 {
+            width: 414px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .card-componen {
+            width: 407px;
+        }
+        .container-txt {
+            margin-left: 10px;
+        }
+        .container-componen {
+            padding-left: 6px;
+        }
+        .logo {
+            margin-top: 150px;
+            margin-left: -6px;
+            z-index: 10;
+        }
+        .stiker {
+            margin-left: 277px;
+        }
+        .container-row {
+            gap: 10px;
+        }
+    }
+
+    @media (max-width: 412px) {
+        .p-txt2 {
+            width: 396px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .card-componen {
+            width: 387px;
+        }
+        .titulo-txt {
+            margin-left: 308px;
+        }
+    }
+
+    @media (max-width: 400px) {
+        .p-txt2 {
+            width: 392px;
+    }
+    .card-componen {
+        width: 387px;
+    }
+    .container-txt{
+        margin-left: 12px;
+    }
+    .titulo-txt {
+        margin-left: 295px;
+    }
+    .container-componen {
+        padding-left: 9px;
+    }
+    .stiker {
+        margin-left: 220px;
+    }
+    .conexion {
+        left: -38px;
+    }
+    .banda {
+        padding-left: 254px;
+        padding-right: 43px;
+        font-size: 12px;
+    }}
+
+    @media (max-width: 395px) {
+        .p-txt2 {
+            width: 379px;
+        }
+        .card-componen {
+            width: 370px;
+        }
+    }
+
+    @media (max-width: 385px) {
+        .p-txt2 {
+            width: 370px;
+        }
+    }
+
+    @media (max-width: 376px) {
+        .card-componen {
+            width: 350px;
+        }
+        .p-txt2 {
+            width: 350px;
+        }
+        .container-cuadritos {
+            gap: 9px;
+        }
+        .titulo-txt {
+            margin-left: 267px;
+        }
+    }
+
+    @media (max-width: 361px) {
+        .card-componen {
+            width: 340px;
+        }
+        .p-txt2 {
+            width: 340px;
+        }
+        .container-cuadritos {
+            gap: 9px;
+        }
+        .titulo-txt {
+            margin-left: 257px;
+        }
+        .banda {
+            padding-left: 181px;
+            padding-right: 26px;
+            font-size: 12px;
+        }
+    }
+
+    @media (max-width: 321px) {
+        .card-componen {
+            width: 300px;
+        }
+        .p-txt2 {
+            width: 300px;
+        }
+        .container-cuadritos {
+            gap: 9px;
+        }
+        .titulo-txt {
+            margin-left: 237px;
+        }
+        .banda {
+            padding-left: 181px;
+            padding-right: 26px;
+            font-size: 12px;
+        }
+        .px-3 {
+            padding-left: 0.25rem;
+            padding-right: 0.25rem;
+        }
+        .stiker {
+            margin-left: 189px;
+        }
+        .container-cuadritos {
+            gap: 2px;
+        }
+        .gap-2 {
+            gap: -0.5rem;
+        }
+        .titulo-txt {
+            margin-left: 215px;
+        }
+        .card-componen {
+            width: 290px;
+        }
+        .txt-ultimo {
+            text-align: center;
+            width: 282px;
+        }
+        .ultimo-container {
+            text-align: center;
+        }
+    }
+

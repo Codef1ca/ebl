@@ -33,7 +33,7 @@ export default function Home() {
       />
     </section>
     <div className="container-txt">
-      <h2 className="titulo-txt">//NOSOTROS</h2>
+    <h2 className="titulo-txt">{'//NOSOTROS'}</h2>
       <div className="container-row">
       <p className="p-txt">Ibalance surge con la necesidad e idea de actualizar los abordajes metodológicos ya existentes, integrando conceptos claves para el entendimiento del ser humano en movimiento: </p>
       <p className="p-txt"><span className="negrita">Biotensegridad, Propiocepción y Núcleo core</span>, a partir de esto se desarrollan las capacidades coordinativas de movimiento con activación rítmico visual</p>

@@ -9,7 +9,6 @@ import {Link} from "@heroui/link";
 export default function Home() {
   return (
     <div className="relative">
-      {/* Imagen posicionada en la esquina superior derecha */}
       <Image
         src="/background-eland.png"
         alt="Background"

@@ -25,7 +25,7 @@ export default function Home() {
         className="logo"
       />
       <Image
-        src="/tarjeton.png"
+        src="/CARD2-CAMBIO.png"
         alt="Background"
         width={650}
         height={850}
@@ -36,7 +36,7 @@ export default function Home() {
     <h2 className="titulo-txt">{'//NOSOTROS'}</h2>
       <div className="container-row">
       <p className="p-txt">Ibalance surge con la necesidad e idea de actualizar los abordajes metodológicos ya existentes, integrando conceptos claves para el entendimiento del ser humano en movimiento: </p>
-      <p className="p-txt"><span className="negrita">Biotensegridad, Propiocepción y Núcleo core</span>, a partir de esto se desarrollan las capacidades coordinativas de movimiento con activación rítmico visual</p>
+      <p className="p-txt"><span className="negrita">Biotensegridad, Propiocepción y Núcleo core</span>, integramos estos conceptos para desarrollar todas las capacidades motoras.</p>
       </div>
       <p className="p-txt2">Estos tres conceptos están íntimamente relacionados, haciendo que cada movimiento pueda ejecutarse de manera coordinada.</p>
     </div>
@@ -46,7 +46,7 @@ export default function Home() {
         <Tab key="photos" title="BIOTENSEGRIDAD" className="titulo-componen">
           <Card className="card-componen">
             <CardBody className="card-componen">
-            Red que envuelve todo el cuerpo, (sistema miofascial) gracias a esta, las estructuras musculo esquelética mantienen su forma ante una compresión o tracción repentina, el cuerpo se autoorganiza efectivamente.
+            Red o malla que envuelve todo el cuerpo, incluyendo órganos, músculos y articulaciones entre otras, gracias a ella, las estructuras músculo esqueléticas mantienen su forma ante una compresión o tracción repentina. 
             </CardBody>
           </Card>
         </Tab>
@@ -60,7 +60,7 @@ export default function Home() {
         <Tab key="videos" title="NÚCLEO CORE">
           <Card className="card-componen">
             <CardBody>
-            Red que envuelve todo el cuerpo, (sistema miofascial) gracias a esta, las estructuras musculo esquelética mantienen su forma ante una compresión o tracción repentina, el cuerpo se auto estabiliza efectivamente.
+            Como él mismo nombre lo indica, el el centro de nuestro cuerpo, entendemos a este núcleo más allá de las cadenas musculares que componen el centro, da origen al movimiento y a la estabilización, está íntimamente relacionado con todas las cadenas musculares, es lo que conecta la cintura escapulario (zona alta o tren superior) con la cintura pélvica (zona baja o tren inferior).
             </CardBody>
           </Card>
         </Tab>
@@ -70,7 +70,7 @@ export default function Home() {
     <div className="container-banda">
     <div className="stiker">PROGRAMA</div>
     <div className="banda">
-    Cada  programa de ejercicios está dividido en 4 bloques, a su vez el programa incluye 24 sesiones con el objetivo de alcanzar efectos biológicos a largo plazo. Dentro de cada bloque aplicamos progresiones y variantes, adaptables según la experiencia y la necesidad de cada persona para una sencilla autogestión del programa.
+    Cada  programa de ejercicios está dividido en 4 bloques, a su vez el programa incluye 24 sesiones. Dentro de cada bloque aplicamos progresiones y variantes, adaptables según la experiencia y la necesidad de cada persona para una sencilla autogestión del programa en el que que vos elegís la modalidad para alcanzar los efectos.
     </div>
     <Image
         src="/conexion.png"

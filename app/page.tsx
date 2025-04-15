@@ -5,10 +5,16 @@ import {Tabs, Tab,} from "@heroui/tabs";
 import {Card, CardHeader, CardBody, CardFooter}  from "@heroui/card";
 import {Divider} from "@heroui/divider";
 import {Link} from "@heroui/link";
+import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
     <div className="relative">
+    <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 3 }}
+    transition={{ duration: 1, delay: 0.6}}
+    >
       <Image
         src="/background-eland.png"
         alt="Background"
@@ -16,6 +22,7 @@ export default function Home() {
         height={600}
         className="opacity-30 img-circular"
       />
+      </motion.div>
     <section className="flex flex-col items-center gap-10 py-8 md:py-10">
     <Image
         src="/logo-ebalance.png"
@@ -72,14 +79,16 @@ export default function Home() {
     <div className="banda">
     Cada  programa de ejercicios está dividido en 4 bloques, a su vez el programa incluye 24 sesiones. Dentro de cada bloque aplicamos progresiones y variantes, adaptables según la experiencia y la necesidad de cada persona para una sencilla autogestión del programa en el que que vos elegís la modalidad para alcanzar los efectos.
     </div>
-    <Image
-        src="/conexion.png"
-        alt="Background"
-        width={350}
-        height={550}
-        className="conexion"
-      />
+  <Image
+    src="/conexion.png"
+    alt="Background"
+    width={350}
+    height={550}
+    className="conexion"
+  />
+
     </div>
+    
 
     <div className="ultimo-container">
     EXISTEN TRES NIVELES PARA ALCANZAR NUESTROS OBJETIVOS

@@ -74,6 +74,20 @@ export default function Home() {
       </Tabs>
     </div>
 
+ 
+    
+
+    <div className="ultimo-container">
+    EXISTEN TRES NIVELES PARA ALCANZAR NUESTROS OBJETIVOS
+    <div className="container-cuadritos">
+    <div className="cuadrito">APRENDER</div>
+    <div className="cuadrito2">PRACTICAR</div>
+    <div className="cuadrito3">ENTRENAR</div>
+    </div>
+    <h2 className="txt-ultimo">Nuestro objetivo siempre es el mismo: lograr efectos biológicos a largo plazo (E.B.L.P) y así también alcanzar armonía desde lo más profundo del cuerpo humano.</h2>
+    </div>
+
+
     <div className="container-banda">
     <div className="stiker">PROGRAMA</div>
     <div className="banda">
@@ -88,19 +102,14 @@ export default function Home() {
   />
 
     </div>
-    
 
-    <div className="ultimo-container">
-    EXISTEN TRES NIVELES PARA ALCANZAR NUESTROS OBJETIVOS
-    <div className="container-cuadritos">
-    <div className="cuadrito">APRENDER</div>
-    <div className="cuadrito2">PRACTICAR</div>
-    <div className="cuadrito3">ENTRENAR</div>
-    </div>
-    <h2 className="txt-ultimo">Nuestro objetivo siempre es el mismo: lograr efectos biológicos a largo plazo (E.B.L.P) y así también alcanzar armonía desde lo más profundo del cuerpo humano.</h2>
-    </div>
 
-    <div className="contenedor-precios">
+    <div className="container-cards-precios">
+      <div className="container-txt2">
+    <h2 className="titulo-huella">MARCAR LA HUELLA DE APRENDIZAJE</h2>
+    <p className="txt-huella">Para lograrlo es necesario llevar adelante 270 acciones efectivas; para alcanzar este efecto biológico a largo plazo es necesario llevar adelante un seguimiento individual por lo que antes de poder autogestionar tu práctica es fundamental que realices el seguimiento sincrónico.</p>
+    </div>
+    <div className="contenedor-precios"> 
     <Card className="max-w-[400px]">
       <CardHeader className="flex gap-3">
         <Image
@@ -110,17 +119,17 @@ export default function Home() {
           width={20}
         />
         <div className="flex flex-col">
-        <p className="text-md">NOMBRE DEL CURSO</p>
-        <p className="text-small text-default-500">Cantidad de horas</p>
+        <p className="text-md">SEGUIMIENTO SINCRÓNICO</p>
+        <p className="text-small text-default-500 text-card">24 sesiones · 2 veces por semana · 3 meses · 4 bloques de 15 minutos · 6 ejercicios · 27 ejecuciones · 270 acciones efectivas</p>
         </div>
       </CardHeader>
       <Divider />
       <CardBody>
-        <p>Precio y demás</p>
+        <p>U$D 270</p>
       </CardBody>
       <Divider />
       <CardFooter>
-        <Link isExternal showAnchorIcon href="https://github.com/heroui-inc/heroui" className="link-color">
+        <Link isExternal showAnchorIcon href="https://github.com/heroui-inc/heroui" className="link-color text-card">
         Visita nuestra plataforma de aprendizaje online.
         </Link>
       </CardFooter>
@@ -135,17 +144,17 @@ export default function Home() {
           width={20}
         />
         <div className="flex flex-col">
-          <p className="text-md">NOMBRE DEL CURSO</p>
-          <p className="text-small text-default-500">Cantidad de horas</p>
+          <p className="text-md">SEGUIMIENTO ASINCRÓNICO</p>
+          <p className="text-small text-default-500 text-card">6 clases de consulta durante 3 meses (1 cada 15 días) · 180 minutos en total con modalidad sincrónica</p>
         </div>
       </CardHeader>
       <Divider />
       <CardBody>
-        <p>Precio y demás</p>
+      <p>U$D NO ME ACUERDO</p>
       </CardBody>
       <Divider />
       <CardFooter>
-        <Link isExternal showAnchorIcon href="https://github.com/heroui-inc/heroui" className="link-color">
+        <Link isExternal showAnchorIcon href="https://github.com/heroui-inc/heroui" className="link-color text-card">
           Visita nuestra plataforma de aprendizaje online
         </Link>
       </CardFooter>
@@ -160,22 +169,75 @@ export default function Home() {
           width={20}
         />
         <div className="flex flex-col">
-        <p className="text-md">NOMBRE DEL CURSO</p>
-        <p className="text-small text-default-500">Cantidad de horas</p>
+        <p className="text-md">WAKE UP</p>
+        <p className="text-small text-default-500 text-card">HACEME UNA PEQUEÑA DESCRIPCIÓN</p>
         </div>
       </CardHeader>
       <Divider />
       <CardBody>
-        <p>Precio y demás</p>
+        <p>U$D NO TENGO PRECIO</p>
       </CardBody>
       <Divider />
       <CardFooter>
-        <Link isExternal showAnchorIcon href="https://github.com/heroui-inc/heroui" className="link-color">
+        <Link isExternal showAnchorIcon href="https://github.com/heroui-inc/heroui" className="link-color text-card">
         Visita nuestra plataforma de aprendizaje online
         </Link>
       </CardFooter>
     </Card>
+
+    <Card className="max-w-[400px]">
+      <CardHeader className="flex gap-3">
+        <Image
+          alt="heroui logo"
+          height={20}
+          src="/personita.png"
+          width={20}
+        />
+        <div className="flex flex-col">
+        <p className="text-md">DISEÑO DEL PROGRAMA</p>
+        <p className="text-small text-default-500 text-card">Si ya nos conocemos podes acceder al diseño de un programa sin seguimiento</p>
+        </div>
+      </CardHeader>
+      <Divider />
+      <CardBody>
+        <p>U$D 36</p>
+      </CardBody>
+      <Divider />
+      <CardFooter>
+        <Link isExternal showAnchorIcon href="https://github.com/heroui-inc/heroui" className="link-color">
+        Solicitalo por WhatsApp
+        </Link>
+      </CardFooter>
+    </Card>
+
+    <Card className="max-w-[400px]">
+      <CardHeader className="flex gap-3">
+        <Image
+          alt="heroui logo"
+          height={20}
+          src="/personita.png"
+          width={20}
+        />
+        <div className="flex flex-col">
+        <p className="text-md">CLASE SUELTA</p>
+        <p className="text-small text-default-500 text-card">Si ya nos conocemos podes acceder a una clase suelta para evacuar dudas</p>
+        </div>
+      </CardHeader>
+      <Divider />
+      <CardBody>
+        <p>U$D 8</p>
+      </CardBody>
+      <Divider />
+      <CardFooter>
+        <Link isExternal showAnchorIcon href="https://github.com/heroui-inc/heroui" className="link-color">
+        Solicitala por WhatsApp
+        </Link>
+      </CardFooter>
+    </Card>
     </div>
+    </div>
+
+    
 
     <div className="max-w-md footer">
       <Divider className="my-4" />

@@ -199,6 +199,28 @@ body{
     color: #E94F1C !important;
 }
 
+.container-cards-precios{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-txt2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    font-weight: 400;
+    gap: 20px;
+}
+
+.text-card{
+    width: 400px;
+}
 .contenedor-precios{
     display: flex;
     flex-direction: row;
@@ -449,6 +471,13 @@ body{
     padding-left: 254px;
     padding-right: 75px;
     }
+    .container-txt2{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .text-card{
+        width: 300px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -537,6 +566,13 @@ body{
         }
         .container-row {
             gap: 10px;
+        }
+        .container-txt2{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .text-card{
+            width: 200px;
         }
     }
 

@@ -117,6 +117,7 @@ export default function Home() {
           height={20}
           src="/personita.png"
           width={20}
+          className="personita"
         />
         <div className="flex flex-col">
         <p className="text-md">SEGUIMIENTO SINCRÓNICO</p>
@@ -142,6 +143,7 @@ export default function Home() {
           height={20}
           src="/personita.png"
           width={20}
+          className="personita"
         />
         <div className="flex flex-col">
           <p className="text-md">SEGUIMIENTO ASINCRÓNICO</p>
@@ -167,6 +169,7 @@ export default function Home() {
           height={20}
           src="/personita.png"
           width={20}
+          className="personita"
         />
         <div className="flex flex-col">
         <p className="text-md">WAKE UP</p>
@@ -192,6 +195,7 @@ export default function Home() {
           height={20}
           src="/personita.png"
           width={20}
+          className="personita"
         />
         <div className="flex flex-col">
         <p className="text-md">DISEÑO DEL PROGRAMA</p>
@@ -217,6 +221,7 @@ export default function Home() {
           height={20}
           src="/personita.png"
           width={20}
+          className="personita"
         />
         <div className="flex flex-col">
         <p className="text-md">CLASE SUELTA</p>

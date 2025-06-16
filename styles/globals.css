@@ -143,6 +143,9 @@ body{
     display: flex;
     flex-direction: row;
     gap: 30px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .cuadrito{
@@ -150,6 +153,7 @@ body{
     padding: 20px;
     color: #AC2E2E;
     border-radius: 10px;
+    width: 300px;
 }
 
 .cuadrito2{
@@ -157,6 +161,7 @@ body{
     padding: 20px;
     color: #E94F1C;
     border-radius: 10px;
+    width: 300px;
 }
 
 .cuadrito3{
@@ -164,6 +169,7 @@ body{
     padding: 20px;
     color: #837979;
     border-radius: 10px;
+    width: 300px;
 }
 
 .ultimo-container{

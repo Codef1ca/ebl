@@ -50,7 +50,7 @@ export default function Home() {
 
     <div className="flex w-full flex-col container-componen">
       <Tabs aria-label="Options" className="recuadro-com">
-        <Tab key="photos" title="BIOTENSEGRIDAD:" className="titulo-componen">
+        <Tab key="photos" title="BIOTENSEGRIDAD" className="titulo-componen">
           <Card className="card-componen">
             <CardBody className="card-componen">
             Estructura viva: Este concepto viene de la palabra tensegridad, que surge de la arquitectura, en este caso aplicable al cuerpo humano, es una red o malla que envuelve todo el organismo, incluyendo músculos, tendones, articulaciones y órganos. Gracias a esta, las estructuras músculo esqueléticas mantienen su forma ante un desbalance o deformación repentina.
@@ -80,16 +80,19 @@ export default function Home() {
     <div className="ultimo-container">
     EXISTEN TRES NIVELES PARA ALCANZAR NUESTROS OBJETIVOS
     <div className="container-cuadritos">
-    <div className="cuadrito">1° NIVEL: APRENDER</div>
-    <div className="cuadrito2">2° NIVEL: PRACTICAR</div>
-    <div className="cuadrito3">3° NIVEL: ENTRENAR</div>
+    <div className="cuadrito">1° NIVEL: APRENDER
+      <br></br>
+      Desbloquear y desglosar los ejercicios para aprenderlos de manera sencilla, adaptamos cada ejercicio a cada persona según el nivel de práctica que ya traes.
     </div>
-    <h2 className="txt-ultimo">Primer nivel: desbloquear y desglosar los ejercicios para aprenderlos de manera sencilla, adaptamos cada ejercicio a cada persona según el nivel de práctica que ya traes.
-    <br></br>
-    Segundo nivel de nuestro programa, tiene duración variable, una vez que ejecutas y recuerdas  movimientos, secuencias y  bloques de cada sesión, ¡estás listo para avanzar al siguiente nivel!
-    <br></br>
-    Tercer nivel, durante esta Etapa logramos los efectos biológicos a largo plazo, ¡estamos listos para comenzar a complejizar la práctica y explorar tu máximo potencial!
-    </h2>
+    <div className="cuadrito2">2° NIVEL: PRACTICAR
+      <br></br>
+       Tiene duración variable, una vez que ejecutas y recuerdas  movimientos, secuencias y  bloques de cada sesión, ¡estás listo para avanzar al siguiente nivel!
+    </div>
+    <div className="cuadrito3">3° NIVEL: ENTRENAR
+      <br></br>
+       Durante esta Etapa logramos los efectos biológicos a largo plazo, ¡estamos listos para comenzar a complejizar la práctica y explorar tu máximo potencial!
+    </div>
+    </div>
     </div>
 
 
